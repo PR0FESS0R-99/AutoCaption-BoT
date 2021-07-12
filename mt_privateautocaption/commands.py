@@ -5,7 +5,7 @@ from pyrogram import Client, PAC_mt
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
 @PAC_mt.on_message(filters.private & filters.command("start"))
-async def start(PAC_mt, update):
+async def start(client, update):
     text = f"""<b> 👋Hello {update.from_user.mention}</b>"""
     reply_markup =  MT_START
     await update.reply_text(
@@ -15,7 +15,7 @@ async def start(PAC_mt, update):
   )
 
 @Mo_Tech_YT.on_message(filters.command(["help"]) & filters.private, group=1)
-async def help(PAC_mt, update):
+async def help(client, update):
     buttons = [[
         InlineKeyboardButton("📃AutoFilter📃", url="t.me/mo_tech_yt")
         ]]
@@ -38,7 +38,7 @@ MT_START = InlineKeyboardMarkup(
    )
 
 @PAC_mt.on_callback_query(filters.regex(r"^(heroku|close)$"), group=2)
-async def callback_data(PAC_mt, update: CallbackQuery):
+async def callback_data(client, update: CallbackQuery):
 
     query_data = update.data
 

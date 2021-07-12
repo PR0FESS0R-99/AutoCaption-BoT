@@ -14,7 +14,7 @@ async def start(client, update):
         reply_markup=reply_markup
   )
 
-@Mo_Tech_YT.on_message(filters.command(["help"]) & filters.private, group=1)
+@PAC_mt.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(client, update):
     buttons = [[
         InlineKeyboardButton("📃AutoFilter📃", url="t.me/mo_tech_yt")

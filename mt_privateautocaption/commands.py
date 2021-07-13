@@ -35,7 +35,8 @@ async def callback_data(client, update: CallbackQuery):
             InlineKeyboardButton("🖥️ Tutorial Video 🖥️", url="https://dashboard.heroku.com/")
             ],[
             InlineKeyboardButton("🏠Home", url=f"https://t.me/{USERNAME}?start=start"),
-            InlineKeyboardButton("❌️Close", callback_data="motech")
+            InlineKeyboardButton("❌️Close", callback_data="motech"),
+            InlineKeyboardButton("About↗️", callback_data="about")
             ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -60,7 +61,7 @@ async def callback_data(client, update: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
 
         await update.message.edit_text(
-            f"""<b>➪ Bot Name</b> [AutoCaptionBot](t.me/{USERNAME})\n\n➪ Framework : Pyrogram\n\n➪ Language : Python\n\n➪ Server : Heroku \n\n➪ Version : 2.0.1\n\n<b>➪ Source Code  :</b> [Touch Me 🤗](https://github.com/PR0FESS0R-99/PrivateAutoCaption)""",
+            f"""<b>➪ Bot Name</b> [AutoCaptionBot](t.me/{USERNAME})\n\n➪ <b>Framework : Pyrogram</b>\n\n➪<b> Language : Python</b>\n\n➪<b> Server : Heroku</b> \n\n<b>➪ Version : 2.0.1</b>\n\n<b>➪ Source Code  :</b> [Touch Me 🤗](https://github.com/PR0FESS0R-99/PrivateAutoCaption)\n\n➪ <b>Developer :</b>  Professor\n\n➪ Credits""",
             reply_markup=reply_markup,
             parse_mode="html"
         )

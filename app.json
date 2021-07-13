@@ -1,0 +1,55 @@
+{
+    "name": "MT AutoCaptionBot",
+    "description": "Auto Caption BoT @Pr0fess0r-009",
+    "logo": "https://telegra.ph/file/a2682b1cb49bf770baecf.jpg",
+    "keywords": [
+        "Private",
+        "Auto",
+        "Caption",
+        "Bot"
+    ],
+    "website": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
+    "repository": "https://github.com/PR0FESS0R-99/PrivateAutoCaption",
+    "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
+    "env": {
+        "APP_ID": {
+            "description": "Your APP ID From my.telegram.org or @MT_MyTelegramOrg_Bot",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash From my.telegram.org or @MT_MyTelegramOrg_Bot",
+            "value": ""
+        },
+        "MT_BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        },
+        "BUTTON": {
+            "description": "Button Name",
+            "value": ""
+        },
+        "CUSTOM": {
+            "description": "Custom Text",
+            "value": ""
+        },
+        "URL": {
+            "description": "Group Or Chanenl Link",
+            "value": "t.me/mo_tech_yt"
+        },
+        "BOT_USERNAME": {
+            "description": "Your Bot Username From @BotFather",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}

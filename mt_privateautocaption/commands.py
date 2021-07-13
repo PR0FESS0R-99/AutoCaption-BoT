@@ -1,15 +1,17 @@
-
-
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 # (C) PR0FESSOR-99
 
+import os
+from config import Config
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
-BOT_USERNAME = "demo2022Bot"
+USERNAME=Config.BOT_USERNAME
 
 @Client.on_message(filters.private & filters.command("start"))
 async def start(client, update):
-    text = f"""<b> 👋Hello {update.from_user.mention}\n\nI am an AutoCaption bot\n\nAll you have to do is add me to your channel and I will show you my power\n\nFor more info check help Button</b>"""
+    text = f"""<b> 👋Hello {update.from_user.mention}\n\nI am an AutoCaption bot\n\nAll you have to do is add me to your channel and I will show you my power\n\nFor more info check help Button\n\n© @Mo_Tech_YT</b>"""
     reply_markup =  InlineKeyboardMarkup(
                                          [[
         InlineKeyboardButton("help↗️", callback_data="heroku"),
@@ -32,14 +34,14 @@ async def callback_data(client, update: CallbackQuery):
         buttons = [[
             InlineKeyboardButton("🖥️ Tutorial Video 🖥️", url="https://dashboard.heroku.com/")
             ],[
-            InlineKeyboardButton("🏠Home", url=f"https://t.me/{BOT_USERNAME}?start=start"),
+            InlineKeyboardButton("🏠Home", url=f"https://t.me/{USERNAME}?start=start"),
             InlineKeyboardButton("❌️Close", callback_data="motech")
             ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
 
         await update.message.edit_text(
-            """<b>AutoCaption Bot\n\nTake a look at the end of the video\nIt has to say\n\nYoutube Tutorial Video\n\nHeroku 👉 https://dashboard.heroku.com/\n\n© @Mo_Tech_YT</b>""",
+            """<b>🔻AutoCaption Bot🔻\n\nTake a look at the end of the video\nIt has to say\n\n🖥️Youtube Tutorial Video\n\nHeroku 👉 https://dashboard.heroku.com/\n\n© @Mo_Tech_YT</b>""",
             reply_markup=reply_markup,
             parse_mode="html"
         )

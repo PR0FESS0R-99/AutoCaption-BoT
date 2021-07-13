@@ -26,19 +26,20 @@
         },
         "BUTTON": {
             "description": "Button Name",
-            "value": ""
+            "required": false
         },
-        "CUSTOM": {
-            "description": "Custom Text",
-            "value": ""
+        "CAPTION": {
+            "description": "Caption Text",
+            "required": false
         },
-        "URL": {
+        "LINK": {
             "description": "Group Or Chanenl Link",
-            "value": "t.me/mo_tech_yt"
+            "value": "t.me/mo_tech_yt",
+            "required": false
         },
         "BOT_USERNAME": {
             "description": "Your Bot Username From @BotFather",
-            "value": ""
+            "required": false
         }
     },
     "buildpacks": [

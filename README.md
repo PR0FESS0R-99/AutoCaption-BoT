@@ -26,10 +26,9 @@ Telegram PrivateAutoCaption © @Mo_Tech_YT
 
 <details><summary>Tutorial Video</summary>
 <p>
-<pre>
-
-<a href="https://youtu.be/kC6feIwmgY0"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a>
-</pre>
+<br>
+<a href="https://youtu.be/kC6feIwmgY0"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a> <img src="https://img.shields.io/youtube/views/kC6feIwmgY0?style=social">
+</a>
 </p>
 </details>
 

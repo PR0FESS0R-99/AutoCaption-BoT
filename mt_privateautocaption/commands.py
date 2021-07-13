@@ -25,7 +25,7 @@ async def start(client, update):
         reply_markup=reply_markup
   )
 
-@Client.on_callback_query(filters.regex(r"^(heroku|motech)$"))
+@Client.on_callback_query(filters.regex(r"^(heroku|about|motech)$"))
 async def callback_data(client, update: CallbackQuery):
 
     query_data = update.data
@@ -42,6 +42,25 @@ async def callback_data(client, update: CallbackQuery):
 
         await update.message.edit_text(
             """<b>🔻AutoCaption Bot🔻\n\nTake a look at the end of the video\nIt has to say\n\n🖥️Youtube Tutorial Video\n\nHeroku 👉 https://dashboard.heroku.com/\n\n© @Mo_Tech_YT</b>""",
+            reply_markup=reply_markup,
+            parse_mode="html"
+        )
+
+    if query_data == "about":
+        buttons = [[
+            InlineKeyboardButton("🗣️Group", url="t.me/mo_tech_Group"),
+            InlineKeyboardButton("Channel📢", url="t.me/mo_tech_yt"),
+            InlineKeyboardButton("📃Bot List", url="https://t.me/Mo_Tech_YT/176")
+            ],[
+            InlineKeyboardButton("🏠Home", url=f"https://t.me/{USERNAME}?start=start"),
+            InlineKeyboardButton("🔙Back", callback_data="heroku"),
+            InlineKeyboardButton("❌️Close", callback_data="motech")
+            ]]
+    
+        reply_markup = InlineKeyboardMarkup(buttons)
+
+        await update.message.edit_text(
+            f"""<b>➪ Bot Name</b> [AutoCaptionBot](t.me/{USERNAME})\n\n➪ Framework : Pyrogram\n\n➪ Language : Python\n\n➪ Server : Heroku \n\n➪ Version : 2.0.1\n\n<b>➪ Source Code  :</b> [Touch Me 🤗](https://github.com/PR0FESS0R-99/PrivateAutoCaption)""",
             reply_markup=reply_markup,
             parse_mode="html"
         )

@@ -35,7 +35,9 @@ Telegram PrivateAutoCaption © @Mo_Tech_YT
 <details><summary>Credits</summary>
 <p>
 <pre>
+
 * Thankz To [SpEcHiDe](https://github.com/SpEcHiDe) [Created](https://github.com/PR0FESS0R-99/PrivateAutoCaption/blob/5bdf676944d9e4c04c08d322715daa55fc108987/mt_privateautocaption/auto_caption.py#L26)
+
 * Thankz To [Professor](https://github.com/PR0FESS0R-99)
 </pre>
 </p>
@@ -44,7 +46,8 @@ Telegram PrivateAutoCaption © @Mo_Tech_YT
 
 <details><summary>Support</summary>
 <p>
-<pre>                                                                                                            
+<pre>
+                                                                                                            
 Join Our [Telegram Group](https://www.telegram.dog/Mo_Tech_Group) For Support/Assistance And Our [Channel](https://www.telegram.dog/Mo_Tech_YT) For Updates.   
    
 **Report Bugs**, Give Feature Requests There..

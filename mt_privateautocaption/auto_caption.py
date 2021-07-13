@@ -1,22 +1,27 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K & Pr0fess0r-99
+# (c) Shrimadhav U K & PR0FESS0R-99
 
 import os
 from config import Config
-
-from pyrogram import filters
-from pyrogram import Client, PAC_cs
+from pyrogram import Client, filters 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import FloodWait
 
-FIXED_CAPTION=Config.CAPTION
+CAPTION_TEXT=Config.CAPTION
+BUTTON_TEXT=Config.BUTTON_TEXT
+URL_LINK=Config.URL_LINK
 
-@PAC_cs.on_message(filters.media & filters.channel)
+
+@Client.on_message(filters.media & filters.channel)
 async def caption(client, message: Message):
     kopp, _ = get_file_id(message)
-    await message.edit(f"{kopp.file_name}\n\{FIXED_CAPTION}")
-
+    await message.edit(f"{kopp.file_name}\n\n{CAPTION_TEXT}",
+          reply_markup=InlineKeyboardMarkup(
+              [[
+              InlineKeyboardButton(f"{BUTTON_TEXT}", url=f"{URL_LINK}")
+              ]]
+        ))
 
 def get_file_id(msg: Message):
     if msg.media:

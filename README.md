@@ -35,13 +35,16 @@ Telegram PrivateAutoCaption © @Mo_Tech_YT
 <details><summary>Credits</summary>
 <p>
 <pre>
-* Thankz To 
-                                                                                                            
-[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes/yellow?icon=github)](https://github.com/PR0FESS0R-99/ID-Bot)
-[![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20Me-Anything-1abc9c.svg)](https://telegram.dog/PR0FESS0R_99)
-[![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/)
-[![Join Channel !](https://badgen.net/badge/🔊%20Join%20/Channel/Black)](https://telegram.dog/mo_tech_YT)
+* Thankz To [SpEcHiDe](https://github.com/SpEcHiDe) [Created](https://github.com/PR0FESS0R-99/PrivateAutoCaption/blob/5bdf676944d9e4c04c08d322715daa55fc108987/mt_privateautocaption/auto_caption.py#L26)
+* Thankz To [Professor](https://github.com/PR0FESS0R-99)
+</pre>
+</p>
+</details>
 
+
+<details><summary>Support</summary>
+<p>
+<pre>                                                                                                            
 Join Our [Telegram Group](https://www.telegram.dog/Mo_Tech_Group) For Support/Assistance And Our [Channel](https://www.telegram.dog/Mo_Tech_YT) For Updates.   
    
 **Report Bugs**, Give Feature Requests There..
@@ -50,4 +53,9 @@ Do **Fork** And **Star** The Repository If You Liked It.
 </pre>
 </p>
 </details>
+
+
+[![Ask Me Anything !](https://img.shields.io/badge/🤔%20Ask%20Me-Anything-1abc9c.svg)](https://telegram.dog/PR0FESS0R_99)
+[![Report Bugs!](https://badgen.net/badge/🐞%20Report%20/Bugs/red)](https://telegram.dog/)
+[![Join Channel !](https://badgen.net/badge/🔊%20Join%20/Channel/Black)](https://telegram.dog/mo_tech_YT)
 

@@ -15,7 +15,7 @@ if __name__ == "__main__" :
         bot_token=Config.MT_BOT_TOKEN,
         api_id=Config.API_ID,
         api_hash=Config.API_HASH,
-        plugins=mt_privateautocaption,
+        plugins=plugins,
         workers=300
     )
     MoTech.run()

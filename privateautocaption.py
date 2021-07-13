@@ -7,7 +7,7 @@ from config import Config
 
 
 if __name__ == "__main__" :
-    mt_privateautocaption = dict(
+    plugins = dict(
         root="mt_privateautocaption"
     )
     MoTech = pyrogram.Client(
@@ -15,7 +15,7 @@ if __name__ == "__main__" :
         bot_token=Config.MT_BOT_TOKEN,
         api_id=Config.API_ID,
         api_hash=Config.API_HASH,
-        mt_privateautocaption=mt_privateautocaption,
+        plugins=mt_privateautocaption,
         workers=300
     )
     MoTech.run()

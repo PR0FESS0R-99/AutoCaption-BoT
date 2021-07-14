@@ -32,7 +32,7 @@ async def callback_data(client, update: CallbackQuery):
 
     if query_data == "heroku":
         buttons = [[
-            InlineKeyboardButton("🖥️ Tutorial Video 🖥️", url="https://dashboard.heroku.com/")
+            InlineKeyboardButton("🖥️ Tutorial Video 🖥️", url="https://youtu.be/p4Z9ZN1lZUk")
             ],[
             InlineKeyboardButton("🏠Home", url=f"https://t.me/{USERNAME}?start=start"),
             InlineKeyboardButton("❌️Close", callback_data="motech"),

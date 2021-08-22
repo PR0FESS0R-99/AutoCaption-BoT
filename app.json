@@ -1,6 +1,6 @@
 {
     "name": "MT AutoCaptionBot",
-    "description": "Auto Caption BoT @Pr0fess0r-009",
+    "description": "Auto Caption BoT @Pr0fess0r-99",
     "logo": "https://telegra.ph/file/a2682b1cb49bf770baecf.jpg",
     "keywords": [
         "Private",
@@ -26,14 +26,14 @@
         },
         "BUTTON": {
             "description": "Button Name",
-            "value": ""
+            "required": false
         },
         "CAPTION": {
             "description": "Caption Text",
-            "value": ""
+            "required": false
         },
         "LINK": {
-            "description": "Group Or Chanenl Link",
+            "description": " Group Or Chanenl) Public Link Link",
             "value": "t.me/mo_tech_yt"
         },
         "BOT_USERNAME": {

@@ -12,7 +12,7 @@ USERNAME=Config.BOT_USERNAME
 
 # start_Msg, help_msg, about_msg
 # Team Mo Tect
-MT = "@Mo_Tech_YT
+MT = "@Mo_Tech_YT"
 
 
 @Client.on_message(filters.private & filters.command("start"))

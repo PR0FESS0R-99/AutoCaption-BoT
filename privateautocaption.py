@@ -8,7 +8,7 @@ from config import Config
 
 if __name__ == "__main__" :
     plugins = dict(
-        root="mt_privateautocaption"
+        root="bot"
     )
     MoTech = pyrogram.Client(
         "CaptionBot",

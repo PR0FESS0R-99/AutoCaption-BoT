@@ -8,8 +8,6 @@ try: bot_token = os.environ.get("bot_token", None)
 except Exception as bot_token: print(f"⚠️ Bot Token Invalid {bot_token}")
 try: custom_caption = os.environ.get("custom_caption", "`{file_name}`")
 except Exception as custom_caption: print(f"⚠️ Custom Caption Invalid {custom_caption}")
-try: username = os.environ.get("bot_username", None)
-except Exception as username: print(f"⚠️ Add UserName {username}")
 
 AutoCaptionBotV1 = pyrogram.Client(
    name="AutoCaptionBotV1", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
@@ -68,11 +66,12 @@ def get_file_details(update: pyrogram.types.Message):
             return obj, obj.file_id
 
 def start_buttons(bot, update):
+  bot = bot.get_users(update.chat.id)
   buttons = [[
    pyrogram.types.InlineKeyboardButton("Updates", url="t.me/Mo_Tech_YT"),
    pyrogram.types.InlineKeyboardButton("About 🤠", callback_data="about")
    ],[
-   pyrogram.types.InlineKeyboardButton("➕️ Add To Your Channel ➕️", url=f"http://t.me/{username}?startchannel=true")
+   pyrogram.types.InlineKeyboardButton("➕️ Add To Your Channel ➕️", url=f"http://t.me/{bot.username}?startchannel=true")
    ]]
   return pyrogram.types.InlineKeyboardMarkup(buttons)
 

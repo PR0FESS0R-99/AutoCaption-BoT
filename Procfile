@@ -1,1 +1,1 @@
-worker: python3 privateautocaption.py
+worker: python3 main.py

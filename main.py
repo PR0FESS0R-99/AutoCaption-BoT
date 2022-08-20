@@ -80,5 +80,8 @@ def about_buttons(bot, update):
    pyrogram.types.InlineKeyboardButton("🏠 Back To Home 🏠", callback_data="start")
    ]]
   return pyrogram.types.InlineKeyboardMarkup(buttons)
-  
+
+print("Telegram AutoCaption V1 Bot Start")
+print("Bot Created By @PR0FESS0R_99")
+
 AutoCaptionBotV1.run()

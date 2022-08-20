@@ -1,6 +1,6 @@
 {
-    "name": "MT AutoCaptionBot",
-    "description": "Auto Caption BoT @Pr0fess0r-99",
+    "name": "AutoCaptionBot-V1",
+    "description": "Auto Caption BoT V1 @Pr0fess0r-99",
     "logo": "https://graph.org/file/a3a93ffb7283578499cce.jpg",
     "keywords": [
         "Private",
@@ -12,19 +12,19 @@
     "repository": "https://github.com/PR0FESS0R-99/AutoCaptionBot-V1",
     "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
     "env": {
-        "APP_ID": {
+        "app_id": {
             "description": "Your APP ID From my.telegram.org or @MT_MyTelegramOrg_Bot",
             "value": ""
         },
-        "API_HASH": {
+        "api_hash": {
             "description": "Your API Hash From my.telegram.org or @MT_MyTelegramOrg_Bot",
             "value": ""
         },
-        "MT_BOT_TOKEN": {
+        "bot_token": {
             "description": "Your Bot Token From @BotFather",
             "value": ""        
         },
-        "CAPTION": {
+        "custom_caption": {
             "description": "Caption Text.  use {file_name} to get original file name",
             "required": false       
         }

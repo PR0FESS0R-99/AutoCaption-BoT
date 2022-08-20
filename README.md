@@ -57,6 +57,7 @@ This Repo is Telegram Channel Code to help build a bot that automatically adds c
 ### LICENSE
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/PR0FESS0R-99/AutoCaptionBot-V1/blob/main/LICENSE)
+
 Licensed under [MIT License](https://github.com/PR0FESS0R-99/AutoCaptionBot-V1/blob/main/LICENSE)
 🚫 Don't Sell This Code. Code is fully open source project ❤️‍🔥
 Copyright Claimed by © @PR0FESS0R-99

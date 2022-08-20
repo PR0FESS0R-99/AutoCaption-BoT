@@ -1,5 +1,5 @@
-# PrivateAutoCaption
-Telegram PrivateAutoCaption © @Mo_Tech_YT
+# AutoCaptionBot V1
+Telegram AutoCaption © @Mo_Tech_YT
 
   </a>
 </p>

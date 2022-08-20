@@ -3,7 +3,7 @@
 </h1>
 
 This Repo is Telegram Channel Code to help build a bot that automatically adds captions to files added to a Telegram channel
-Copyright Claimed by © @PR0FESS0R-99
+
 
   </a>
 </p>
@@ -25,7 +25,7 @@ Copyright Claimed by © @PR0FESS0R-99
 
 
 
-### Simple Variables
+### Simple Variables 😉
 
 * `app_id`= Get this value from [telegram.org](https://my.telegram.org/apps) or [@MT_MyTelegramOrg_Bot](https://t.me/MT_MyTelegramOrg_Bot) .
 * `api_hash`= Get this value from [telegram.org](https://my.telegram.org/apps) or [@MT_MyTelegramOrg_Bot](https://t.me/MT_MyTelegramOrg_Bot) .
@@ -34,23 +34,32 @@ Copyright Claimed by © @PR0FESS0R-99
 
 
 
+### Made With 
+
+● 📚 𝗟𝗔𝗡𝗚𝗨𝗔𝗚𝗘
+
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org)
+
+● 🧮 𝗟𝗜𝗕𝗥𝗔𝗥𝗬
+
+[![PYROGRAM](https://img.shields.io/badge/%F0%9F%94%A5-PYROGRAM%20-orange)](https://docs.pyrogram.org)
+
+
+### Developer & Support
+
+
+
 ### Credits
 
-<p align="center">
-  <a href="https://www.python.org"> 
-  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
-  </a>
-</p>
-</p>
 
 
-<p align="center">
-  <a href="https://docs.pyrogram.org"> 
-  <img src="https://img.shields.io/badge/%F0%9F%94%A5-PYROGRAM%20-orange">
-  </a>
-</p>
-</p>
 
+### LICENSE
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/PR0FESS0R-99/AutoCaptionBot-V1/blob/main/LICENSE)
+Licensed under [MIT License](https://github.com/PR0FESS0R-99/AutoCaptionBot-V1/blob/main/LICENSE)
+🚫 Don't Sell This Code. Code is fully open source project ❤️‍🔥
+Copyright Claimed by © @PR0FESS0R-99
 
 
 

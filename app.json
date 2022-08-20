@@ -1,7 +1,7 @@
 {
     "name": "MT AutoCaptionBot",
     "description": "Auto Caption BoT @Pr0fess0r-99",
-    "logo": "https://telegra.ph/file/a2682b1cb49bf770baecf.jpg",
+    "logo": "https://graph.org/file/a3a93ffb7283578499cce.jpg",
     "keywords": [
         "Private",
         "Auto",
@@ -9,7 +9,7 @@
         "Bot"
     ],
     "website": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
-    "repository": "https://github.com/PR0FESS0R-99/PrivateAutoCaption",
+    "repository": "https://github.com/PR0FESS0R-99/AutoCaptionBot-V1",
     "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
     "env": {
         "APP_ID": {
@@ -22,23 +22,11 @@
         },
         "MT_BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
-            "value": ""
-        },
-        "BUTTON": {
-            "description": "Button Name",
-            "required": false
+            "value": ""        
         },
         "CAPTION": {
-            "description": "Caption Text",
-            "required": false
-        },
-        "LINK": {
-            "description": " Group Or Chanenl) Public Link Link",
-            "value": "t.me/mo_tech_yt"
-        },
-        "BOT_USERNAME": {
-            "description": "Your Bot Username From @BotFather",
-            "value": ""
+            "description": "Caption Text.  use {file_name} to get original file name",
+            "required": false       
         }
     },
     "buildpacks": [

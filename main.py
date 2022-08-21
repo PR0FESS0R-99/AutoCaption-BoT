@@ -18,12 +18,13 @@ start_message = """
 <b>All you have to do is add me to your channel and I will show you my power</b>
 <b>@Mo_Tech_YT</b>"""
 
-about_message = f"""
-<b>• Name : AutoCaption V1</b>
+about_message = """
+<b>• Name : [AutoCaption V1](t.me/{username})</b>
+<b>• Developer : [Muhammed](https://github.com/PR0FESS0R-99)
 <b>• Language : Python3</b>
-<b>• Library : Pyrogram v{pyrogram.__version__}
+<b>• Library : Pyrogram v{version}</b>
 <b>• Updates : <a href=https://t.me/Mo_Tech_YT>Click Here</a></b>
-<b>• Source Code : <a href=https://t.me/TeamEvamaria>Click Here</a></b>"""
+<b>• Source Code : <a href=https://github.com/PR0FESS0R-99/AutoCaptionBot-V1>Click Here</a></b>"""
 
 @AutoCaptionBotV1.on_message(pyrogram.filters.private & pyrogram.filters.command(["start"]))
 def start_command(bot, update):
@@ -36,7 +37,7 @@ def strat_callback(bot, update):
 @AutoCaptionBotV1.on_callback_query(pyrogram.filters.regex("about"))
 def about_callback(bot, update): 
   bot = bot.get_me()
-  update.message.edit(about_message.format(bot=bot.mention), reply_markup=about_buttons(bot, update.message), parse_mode=pyrogram.enums.ParseMode.HTML, disable_web_page_preview=True)
+  update.message.edit(about_message.format(version=pyrogram.__version__, username=bot.mention), reply_markup=about_buttons(bot, update.message), parse_mode=pyrogram.enums.ParseMode.HTML, disable_web_page_preview=True)
 
 @AutoCaptionBotV1.on_message(pyrogram.filters.channel)
 def edit_caption(bot, update: pyrogram.types.Message):
@@ -84,6 +85,6 @@ def about_buttons(bot, update):
   return pyrogram.types.InlineKeyboardMarkup(buttons)
 
 print("Telegram AutoCaption V1 Bot Start")
-print("Bot Created By @PR0FESS0R_99")
+print("Bot Created By https://github.com/PR0FESS0R-99")
 
 AutoCaptionBotV1.run()

@@ -18,9 +18,10 @@ start_message = """
 <b>All you have to do is add me to your channel and I will show you my power</b>
 <b>@Mo_Tech_YT</b>"""
 
-about_message = """
+about_message = f"""
 <b>• Name : AutoCaption V1</b>
 <b>• Language : Python3</b>
+<b>• Library : Pyrogram v{pyrogram.__version__}
 <b>• Updates : <a href=https://t.me/Mo_Tech_YT>Click Here</a></b>
 <b>• Source Code : <a href=https://t.me/TeamEvamaria>Click Here</a></b>"""
 

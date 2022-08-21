@@ -34,8 +34,9 @@ def strat_callback(bot, update):
   update.message.edit(start_message.format(update.from_user.mention), reply_markup=start_buttons(bot, update.message), parse_mode=pyrogram.enums.ParseMode.HTML, disable_web_page_preview=True)
 
 @AutoCaptionBotV1.on_callback_query(pyrogram.filters.regex("about"))
-def about_callback(bot, update):  
-  update.message.edit(about_message, reply_markup=about_buttons(bot, update.message), parse_mode=pyrogram.enums.ParseMode.HTML, disable_web_page_preview=True)
+def about_callback(bot, update): 
+  bot = bot.get_me()
+  update.message.edit(about_message.format(bot=bot.mention), reply_markup=about_buttons(bot, update.message), parse_mode=pyrogram.enums.ParseMode.HTML, disable_web_page_preview=True)
 
 @AutoCaptionBotV1.on_message(pyrogram.filters.channel)
 def edit_caption(bot, update: pyrogram.types.Message):

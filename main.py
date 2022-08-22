@@ -42,11 +42,13 @@ def about_callback(bot, update):
 @AutoCaptionBotV1.on_message(pyrogram.filters.channel)
 def edit_caption(bot, update: pyrogram.types.Message):
   motech, _ = get_file_details(update)
-  try: update.edit(custom_caption.format(file_name=motech.file_name))
-  except pyrogram.errors.FloodWait as FloodWait:
-      asyncio.sleep(FloodWait.x)
-      update.edit(custom_caption.format(file_name=motech.file_name))
-     
+  try:
+      try: update.edit(custom_caption.format(file_name=motech.file_name))
+      except pyrogram.errors.FloodWait as FloodWait:
+          asyncio.sleep(FloodWait.x)
+          update.edit(custom_caption.format(file_name=motech.file_name))
+  except pyrogram.errors.MessageNotModified: pass 
+    
 def get_file_details(update: pyrogram.types.Message):
   if update.media:
     for message_type in (

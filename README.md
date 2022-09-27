@@ -19,7 +19,7 @@ This Repo is Telegram Channel Code to help build a bot that automatically adds c
 
 
 ### Deploy To Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PR0FESS0R-99/AutoCaptionBot-V1)                     
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PR0FESS0R-99/AutoCaption-BoT)                     
 
 ### Simple Variables 😉
 
@@ -52,7 +52,7 @@ This Repo is Telegram Channel Code to help build a bot that automatically adds c
 
 ### LICENSE
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/PR0FESS0R-99/AutoCaptionBot-V1/blob/main/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/PR0FESS0R-99/AutoCaption-BoT/blob/main/LICENSE)
 
 Licensed under [MIT License](https://github.com/PR0FESS0R-99/AutoCaptionBot-V1/blob/main/LICENSE)
 🚫 Don't Sell This Code. Code is fully open source project ❤️‍🔥

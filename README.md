@@ -11,8 +11,8 @@ This Repo is Telegram Channel Code to help build a bot that automatically adds c
 
   </a>
   
-  <a href="https://github.com/PR0FESS0R-99/AutoCaptionBot-V1/fork">
-    <img src="https://img.shields.io/github/forks/PR0FESS0R-99/AutoCaptionBot-V1?label=Fork&style=social">
+  <a href="https://github.com/PR0FESS0R-99/AutoCaption-BoT/fork">
+    <img src="https://img.shields.io/github/forks/PR0FESS0R-99/AutoCaption-BoT?label=Fork&style=social">
 
   </a>  
 </p>

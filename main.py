@@ -66,9 +66,8 @@ def get_file_details(update: pyrogram.types.Message):
         # "venue",
         "sticker"
     ):
-        obj = getattr(update, message_type)
-        if obj:
-            return obj, obj.file_id
+      if obj := getattr(update, message_type):
+        return obj, obj.file_id
 
 def start_buttons(bot, update):
   bot = bot.get_me()
